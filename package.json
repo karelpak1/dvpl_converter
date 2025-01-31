@@ -1,7 +1,7 @@
 {
   "name": "dvpl-test",
-  "version": "3.0.2",
-  "description": "converter aims to be able to directly convert between .dvpl and standard non-dvpl files.",
+  "version": "3.0.3",
+  "description": "Converter aims to be able to directly convert between .dvpl and standard non-dvpl files.",
   "main": "dvpl_convert.js",
   "bin": {
     "dvpl": "dvpl.js"
@@ -9,8 +9,8 @@
   "dependencies": {
     "crc": "^4.3.2",
     "lz4": "^0.6.5",
-    "node-gyp": "^10.0.1",
-    "nan": "latest"
+    "node-gyp": "^11.0.0",
+    "nan": "^2.22.0"
   },
   "scripts": {
     "prepare": "echo prepare",
